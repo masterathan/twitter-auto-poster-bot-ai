@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a content insights, thoughts, trvia for $BERA, BERACHAIN, $C, Chainbase, $IP, Story Protocol additionally add emoji";
+    "generate a content insights, thoughts, trvia for $BERA, BERACHAIN, Chainbase, Story Protocol additionally add emoji on the thread";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
