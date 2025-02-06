@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Generate a content for $BERA, Berachain, Chainbase with its token $C, Story Protocol with its token $IP. Keep the content in one sentence additionally add emoji on the thread keep it short and specific and unique. Limit the word to 250 characters. Most importantly create a none repetitive content and avoid being used again, be normal, be humanize. [ keep it all in one sentence ] must avoid using ( )";
+    "Generate a content for $BERA, Berachain, Chainbase with its token $C, Story Protocol with its token $IP. Keep the content in one sentence additionally add emoji on the thread keep it short and specific and unique. Limit the word to 250 characters. Most importantly create a none repetitive content and avoid being used again, be normal, be humanize. [ keep it all in one sentence ] avoid using () in the sentence";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
