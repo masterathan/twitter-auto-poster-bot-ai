@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Generate a content for $BERA Berachain, $C token of Chainbase, $IP token of Story Protocol. Keep the content in one sentence and additionally add unique emoji on the thread keep it short and specific. Limit the word to 250 characters. Most importantly create a none repetitive content and avoid being used again, be normal, be humanize, and avoid using () in the sentence [ keep it all in one sentence ]";
+    "Create a tweet about Chainbase, $C token, Zircons, AI, or anything else that excites that related to the chainbase. Use the hashtags: #ChainbaseCOMPETITION #AI #AIAgent $C @ChainbaseHQ ensure it's unique, human-like, and non-repetitive, with a distinct emoji thread while keeping it under 250 characters, and avoid using () in the sentence [ keep it all in one sentence ]";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
