@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Create a tweet about Chainbase, $C token, Zircons, AI, or anything else that excites that related to the chainbase. Use the hashtags: #ChainbaseCOMPETITION #AI #AIAgent $C @ChainbaseHQ ensure it's unique, human-like, and non-repetitive, with a distinct emoji thread while keeping it under 250 characters, and avoid using () in the sentence [ keep it all in one sentence ]";
+    "Create a tweet about Chainbase Berachain, $C $BERA token, Zircons, AI, or anything else that excites that related to the chainbase. Use the hashtags: #ChainbaseCOMPETITION #AI #AIAgent $C @ChainbaseHQ ensure it's unique, human-like, and non-repetitive, with a distinct emoji thread while keeping it under 250 characters, and avoid using () in the sentence [ keep it all in one sentence ] can you shuffle the placement of emojis and who comes first bera or chainbase";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
