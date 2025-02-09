@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Create a tweet about: Chainbase and Berachain random placements Native token: $C , $BERA random placements Topic: like hype anything else that excites that related to Chainbase and Berachain example: zircons, AI random placements Use the hashtags:#ChainbaseCOMPETITION #AI #AIAgent @ChainbaseHQ @berachain @BenjaminOnIP random placements Ensure its unique,human-like,and non-repetitive content and first opening sentence shouldn't be repetitive it should have a hype vibes,with a distinct emoji thread while keeping it under 250 characters,and avoid using in the sentence [keep it all in one sentence]";
+    "Create a tweet about: Chainbase and Berachain random placements Native token: $C , $BERA random placements Topic: like hype anything else that excites that related to Chainbase and Berachain example: zircons, AI random placements Use the hashtags:#ChainbaseCOMPETITION #AI #AIAgent @ChainbaseHQ @berachain tag @BenjaminOnIP and comment about IPs of Story Protocol in random placements Ensure its unique,human-like,and non-repetitive content and first opening sentence shouldn't be repetitive it should have a hype vibes,with a distinct emoji thread while keeping it under 250 characters,and avoid using in the sentence [keep it all in one sentence]";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
